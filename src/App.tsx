@@ -1,3 +1,4 @@
+// Copyright Simi Hartstein
 import { useCallback, useState } from "react";
 import "./App.css";
 import venmoCode from "./Venmo.jpg";
