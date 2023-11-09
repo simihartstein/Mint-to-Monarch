@@ -49,10 +49,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h2>
-          Mint to Monarch account history csv converter.
+          Mint to Monarch account history CSV converter.
         </h2>
+        <div>This tool can assist in migrating account history from Mint to Monarch.</div>
         <div>No data is uploaded. All data is processed locally.</div>
-        <div className="App-see-below">See instructions below.</div>
+        <div className="App-see-below">See instructions at the bottom.</div>
         <form className="App-form" onSubmit={handleSubmit}>
           <div>
             <label className="App-form-label">Account Name:</label>
@@ -79,33 +80,43 @@ function App() {
           Save Monarch CSV
         </button>
         <div className="plug-text">
-          If this helped you, please consider donating so I can make more projects like this.
+          If this helped you, please consider donating so I can make more tools like this.
         </div>
         <img src={venmoCode} className="App-logo" alt="logo" />
       </header>
       <div className="App-instructions">
         <h1>Instructions</h1>
-        <div>
-          <h3>To Download Mint CSV</h3>
-          <ul>
-            <li>Login to Mint on the browser</li>
-            <li>Navigate to "Trends"</li>
-            <li>Expand "Assets" and Select "Over time"</li>
-            <li>
-              Select one account (Monarch only supports one account at a time)
-            </li>
-            <li>
-              Select "All Time" or whatever range you want to transfer to Monarch.
-            </li>
-            <li>Scroll to the bottom of the screen, click "Export to CSV"</li>
-          </ul>
-        </div>
-        <h3>
-          To Upload CSV to Monarch
-        </h3>
-        <div>Follow instructions here: 
-          <a className="monarch-instruction-link" href="https://help.monarchmoney.com/hc/en-us/articles/14882425704212">https://help.monarchmoney.com/hc/en-us/articles/14882425704212</a>
-        </div>
+        <h3>1. Download a Mint account history CSV</h3>
+        <ul>
+          <li>Log in to Mint on the browser.</li>
+          <li>Navigate to "Trends."</li>
+          <li>Expand "Assets" and Select "Over time."</li>
+          <li>
+            Select one account (Monarch only supports adding history for one account at a time).
+          </li>
+          <li>
+            Select "All Time" or whatever range you want to transfer to Monarch.
+          </li>
+          <li>Scroll to the bottom of the screen, click "Export to CSV". This will download trends.csv</li>
+          <li>Rename trends.csv to something more meaningful so you know which account it is for.</li>
+          <li>Repeat this for each account you'd like to transfer 😩</li>
+        </ul>
+        <h3>2. Use this website to convert your Mint CSV to a Monarch CSV.</h3>
+        <ul>
+          <li>Enter the name of the account you are transferring.</li>
+          <li>Click the "Browse..." button and select a CSV you downloaded from Mint.</li>
+          <li>Click the "Convert to Monarch CSV button". You should see the result in the window.</li>
+          <li>Click the "Save Monarch CSV" button to save the file to your computer.</li>
+          <li>Repeat for each CSV 😩</li>
+        </ul>
+        <h3>3. Upload CSV to Monarch</h3>
+        <ul>
+          <li>Follow the official instructions here:
+            <a className="monarch-instruction-link" href="https://help.monarchmoney.com/hc/en-us/articles/14882425704212">https://help.monarchmoney.com/hc/en-us/articles/14882425704212</a>
+          </li>
+          <li>Repeat for each CSV 😩</li>
+          <li>Success!!! 🥳</li>
+        </ul>
       </div>
     </div>
   );
