@@ -1,3 +1,4 @@
+// @Copyright Simi Hartstein
 
 export type ValueRecord = {
   account: string,
