@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mint-to-manarch/static/css/main.9dfe1263.css",
+    "main.js": "/mint-to-manarch/static/js/main.952e60d8.js",
+    "static/js/787.54dca3d0.chunk.js": "/mint-to-manarch/static/js/787.54dca3d0.chunk.js",
+    "static/media/Venmo.jpg": "/mint-to-manarch/static/media/Venmo.14c4a37b6f7af1677892.jpg",
+    "index.html": "/mint-to-manarch/index.html",
+    "main.9dfe1263.css.map": "/mint-to-manarch/static/css/main.9dfe1263.css.map",
+    "main.952e60d8.js.map": "/mint-to-manarch/static/js/main.952e60d8.js.map",
+    "787.54dca3d0.chunk.js.map": "/mint-to-manarch/static/js/787.54dca3d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dfe1263.css",
+    "static/js/main.952e60d8.js"
+  ]
+}
