@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Mint-to-Monarch/static/css/main.63c34c08.css",
-    "main.js": "/Mint-to-Monarch/static/js/main.f3f8aa8b.js",
+    "main.js": "/Mint-to-Monarch/static/js/main.16253e63.js",
     "static/js/787.54dca3d0.chunk.js": "/Mint-to-Monarch/static/js/787.54dca3d0.chunk.js",
     "static/media/Venmo.jpg": "/Mint-to-Monarch/static/media/Venmo.14c4a37b6f7af1677892.jpg",
     "index.html": "/Mint-to-Monarch/index.html",
     "main.63c34c08.css.map": "/Mint-to-Monarch/static/css/main.63c34c08.css.map",
-    "main.f3f8aa8b.js.map": "/Mint-to-Monarch/static/js/main.f3f8aa8b.js.map",
+    "main.16253e63.js.map": "/Mint-to-Monarch/static/js/main.16253e63.js.map",
     "787.54dca3d0.chunk.js.map": "/Mint-to-Monarch/static/js/787.54dca3d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63c34c08.css",
-    "static/js/main.f3f8aa8b.js"
+    "static/js/main.16253e63.js"
   ]
 }
