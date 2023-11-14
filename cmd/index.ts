@@ -1,17 +1,8 @@
 import fs from "fs";
 import process from "process";
-import { parseMintCsv, valueRecordsToMonarchCsv } from "../common/mint-monarch";
+import { parseMintCsv, valueRecordsToMonarchAccountBalanceCsv } from "../src/mint-monarch";
 
 const fsPromises = fs.promises;
-// import express, { Request, Response } from "express";
-
-
-// const app = express();
-
-
-// app.get("/", (req: Request, res: Response) => {
-
-// });
 
 main();
 
@@ -26,7 +17,7 @@ async function main(): Promise<void> {
 
   const mintCsvString = await fsPromises.readFile(inputFile, "utf-8");
   const records = parseMintCsv(accountName, mintCsvString);
-  const monarchCsvString = valueRecordsToMonarchCsv(records);
+  const monarchCsvString = valueRecordsToMonarchAccountBalanceCsv(records);
 
   await fsPromises.writeFile(outFile, monarchCsvString, "utf-8");
 

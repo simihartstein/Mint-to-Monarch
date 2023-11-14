@@ -63,6 +63,10 @@ ul {
   margin-right: 10px;
 }
 
+.App-form-checkbox {
+  height: auto;
+}
+
 .App-form-submit {
   text-align: center;
   height: 35px;
