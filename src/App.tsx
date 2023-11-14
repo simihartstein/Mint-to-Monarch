@@ -52,7 +52,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h2>
-          Mint to Monarch account history CSV converter.
+          Mint to Monarch account history CSV converter
         </h2>
         <div>This tool can assist in migrating account balance history from Mint to Monarch.</div>
         <div>Nothing is uploaded. All data is processed locally.</div>
