@@ -21,7 +21,7 @@ export function parseMintCsv(accountName: string, csvDataString: string): ValueR
   const csvLines = csvDataString.split('\n');
 
   if (csvLines.length === 0) {
-    throw new Error("This doesn't look like a Mint CSV file");
+    throw new Error("This doesn't look like a Mint account balance CSV file");
   }
 
   const headers = csvLines[0].split(',');
@@ -30,7 +30,7 @@ export function parseMintCsv(accountName: string, csvDataString: string): ValueR
     || headers[0] !== '"DATES"'
     || (headers[1] !== '"Assets"' && headers[1] !== '"Debts"')
   ) {
-    throw new Error("This doesn't look like a Mint CSV file");
+    throw new Error("This doesn't look like a Mint account balance CSV file");
   }
 
   const isDebt = headers[1] === '"Debts"';

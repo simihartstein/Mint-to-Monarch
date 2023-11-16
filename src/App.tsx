@@ -53,7 +53,7 @@ function App() {
       <header className="App-header">
         <div className="App-notice">Notice: Monarch has released a&nbsp;
           <a target="_blank" rel="noreferrer" href="https://www.reddit.com/r/MonarchMoney/comments/17uckhp/exporting_your_data_from_mint_a_chrome_extension/">chrome extension</a>
-          &nbsp;to pull data directly from your Mint account.
+          &nbsp;to export data directly from your Mint account.
           It is probably a better option if you are able and willing to install it.
         </div>
         <h2>
