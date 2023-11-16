@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Mint-to-Monarch/static/css/main.63c34c08.css",
-    "main.js": "/Mint-to-Monarch/static/js/main.16253e63.js",
+    "main.css": "/Mint-to-Monarch/static/css/main.2962a762.css",
+    "main.js": "/Mint-to-Monarch/static/js/main.4bba4ffb.js",
     "static/js/787.54dca3d0.chunk.js": "/Mint-to-Monarch/static/js/787.54dca3d0.chunk.js",
     "static/media/Venmo.jpg": "/Mint-to-Monarch/static/media/Venmo.14c4a37b6f7af1677892.jpg",
     "index.html": "/Mint-to-Monarch/index.html",
-    "main.63c34c08.css.map": "/Mint-to-Monarch/static/css/main.63c34c08.css.map",
-    "main.16253e63.js.map": "/Mint-to-Monarch/static/js/main.16253e63.js.map",
+    "main.2962a762.css.map": "/Mint-to-Monarch/static/css/main.2962a762.css.map",
+    "main.4bba4ffb.js.map": "/Mint-to-Monarch/static/js/main.4bba4ffb.js.map",
     "787.54dca3d0.chunk.js.map": "/Mint-to-Monarch/static/js/787.54dca3d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63c34c08.css",
-    "static/js/main.16253e63.js"
+    "static/css/main.2962a762.css",
+    "static/js/main.4bba4ffb.js"
   ]
 }
