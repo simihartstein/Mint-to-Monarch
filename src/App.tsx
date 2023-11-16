@@ -51,6 +51,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div className="App-notice">Notice: Monarch has released a&nbsp;
+          <a target="_blank" rel="noreferrer" href="https://www.reddit.com/r/MonarchMoney/comments/17uckhp/exporting_your_data_from_mint_a_chrome_extension/">chrome extension</a>
+          &nbsp;to pull data directly from your Mint account.
+          It is probably a better option if you are able and willing to install it.
+        </div>
         <h2>
           Mint to Monarch account history CSV converter
         </h2>
@@ -121,7 +126,7 @@ function App() {
         <ul>
           <h4>If your account WAS NOT manually added</h4>
           <li>Follow the official instructions here:
-            <a className="monarch-instruction-link" href="https://help.monarchmoney.com/hc/en-us/articles/14882425704212">https://help.monarchmoney.com/hc/en-us/articles/14882425704212</a>
+            <a className="monarch-instruction-link" target="_blank" rel="noreferrer" href="https://help.monarchmoney.com/hc/en-us/articles/14882425704212">https://help.monarchmoney.com/hc/en-us/articles/14882425704212</a>
           </li>
           <li>Repeat for each CSV 😩</li>
           <li>Success!!! 🥳</li>

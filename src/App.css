@@ -47,6 +47,14 @@ ul {
   color: white;
 }
 
+.App-notice {
+  color: red;
+  font-size: x-large;
+  a:visited {
+    color: grey;
+  }
+}
+
 .App-link {
   color: #61dafb;
 }
