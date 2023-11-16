@@ -51,7 +51,7 @@ ul {
   color: red;
   font-size: x-large;
   a:visited {
-    color: grey;
+    color: rgb(175,175,175);
   }
 }
 
